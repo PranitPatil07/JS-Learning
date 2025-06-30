@@ -13,3 +13,6 @@ accountPassword=11111111;
 */
 console.log(accountId);
 console.table([accountId,accountEmail,accountPassword,accountCity]);
+
+
+
