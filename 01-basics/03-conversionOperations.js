@@ -16,8 +16,31 @@ let valueInBoolean=Boolean(age)
 
 let value = 3;
 let negativeValue=-value
-console.log(negativeValue);
-console.log(typeof negativeValue);
+// console.log(negativeValue);
+// console.log(typeof negativeValue);
+ const Id= Symbol('123');
+ const accId=Symbol('123');
+ console.log(Id);
+ console.log(accId);
+ console.log(Id==accId);
+
+// Primitive data type:-  string, number, null, undefined, symbol, BigInt, Boolean
+
+// non-Primitive (Reference):- Array, Objects, Functions
+
+//  Array
+ const fruits=["Apple","Banana"];
+ //Object
+ let myobj={
+    name:"Pranit",
+    age:23,
+ };
+//Function
+ const myyfunction=function(){
+    console.log("Hello Word");
+    
+ }
+ 
  
 
 
